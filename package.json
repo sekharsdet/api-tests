@@ -1,0 +1,31 @@
+{
+  "name": "com.nord.api",
+  "version": "1.0.0",
+  "description": "Sample API Test automation with Axios and Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekharsdet/api-tests.git"
+  },
+  "keywords": [
+    "axios",
+    "jasmine",
+    "api",
+    "testing"
+  ],
+  "author": "Sekhar Uppari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekharsdet/api-tests/issues"
+  },
+  "homepage": "https://github.com/sekharsdet/api-tests#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "jasmine": "^4.1.0"
+  }
+}
