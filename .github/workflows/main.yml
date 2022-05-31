@@ -11,7 +11,7 @@ on:
 jobs:
   test-code:
     name: Javascript API test
-    runs-on: [self-hosted]
+    runs-on: [macos-latest]
     steps:
       - uses: actions/checkout@v2
       - name: Use node 14
