@@ -1,7 +1,12 @@
 const axios = require('axios')
 
-class Api{
+class Api {
 
+    /**
+     * invoking get method
+     * @param {*} url 
+     * @returns response
+     */
     async getData(url) {
         try {
             const response = await axios.get(url)
@@ -12,6 +17,12 @@ class Api{
         }
     }
 
+    /**
+     * invoking post method
+     * @param {*} url 
+     * @param {*} auth 
+     * @returns response
+     */
     async postData(url, auth) {
         try {
             const response = await axios.post(
