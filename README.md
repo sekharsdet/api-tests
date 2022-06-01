@@ -2,6 +2,7 @@
 ## Prerequisites
 
 - NodeJS >=14
+- Java >=8 to genarate allure reports
 - Allure command line tools to see reports
 
 ### To start the project locally:
